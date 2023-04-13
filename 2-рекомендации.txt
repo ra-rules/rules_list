@@ -1,0 +1,125 @@
+## Server
+
+Linux
+    Debian
+    AstraLinux
+
+Kernel
+Сервисы/WatchDog
+Процессы/ps htop - потребление ресурсов
+Порты/netstat ip - GeoIP
+Пользователи/Ограниченное окружение
+Логи/Аналитика
+
+## FrontEnd
+    прелоадер - SVG анимация
+    Javascript/убрать jquery
+    CSS3/SCSS/PostCSS
+    PWA - добавить на экран, offline
+    React/Vue/Angular
+    Адаптивная вёрстка - Мобильная/Планшет/Десктоп
+    Чат-бот (авточат вопрос- ответ)
+    Шрифты
+    CDN
+
+## Backend
+
+Хостинг
+    RuVDS
+    Провайдер лицензирован ФСТЭК
+    ПРОГРАММА СТРАХОВАНИЯКИБЕР-РИСКОВ
+
+Web HTTP2
+    Apache    
+    nginx
+    RoadRunner
+    caddy
+
+SSL/TLS
+    Kaspersky
+
+PHP
+    mod_php
+    php-fpm
+    RoadRunner
+    PHP update 8
+    PSR-7
+
+PHP doc generator
+    phpDocumentor
+    Doxygen
+
+Cache
+    Redis
+    Memcached
+
+Test
+    Browser/UI
+    PHP
+    remote API
+
+Полнотекстовый поиск
+    MySQL / PostgreSQL
+    Laravel Scout
+        MeiliSearch
+        Algolia
+    Elastic
+    Sphynx
+
+Git
+    Gogs (Go)
+    Gitlab (ruby)
+    Gitea (Go)
+    Gitolite (perl)
+    Gitblit (java)
+
+Deploy CI/CD
+    Gitlab CI/CD
+    Jenkins CI/CD
+
+Отладка
+    Xdebug
+
+Очереди заданий
+    Beanstalkd
+    Cron
+    Регламентные задачи
+        бекап
+        индексация
+        прочее
+
+Очереди сообщений
+    RabbitMQ
+
+Мониторинг
+    Доступности
+        Простой пинг http
+    Производительности
+    Zabbix
+        MySQL
+        MSSQL
+        PHP-FPM
+        Apache
+        Nginx
+    Оповещение в случае инцендентов
+        Телеграмм/почта/SMS
+
+Логи и их аналитика
+    rSyslog
+    LogAnalyzer
+    ELK - Elasticsearch, Logstash, Kibana
+
+Безопасность
+    Honeypot
+    IDS
+    antivirus
+    change ports 22->12322
+
+Service/Help Desk
+    Заявки/Приоритеты
+    База знаний
+
+## Контент
+
+"Руководство по соблюдению образовательными организациями требований законодательства Российской Федерации в сфере образования в части информационной открытости образовательной организации". Утверждено Рособрнадзором РФ 30.05.2022
+Версия для слабовидящих/контрастная
