@@ -1,0 +1,162 @@
+# Список используемых приложений
+
+Linux
+
+Разработка/Devops
+
+Написание текстов
+
+- txt
+- md
+- mdx MarkDown + React
+- mmd Mermaid
+
+Разработка
+
+- VS Code
+  - extensions
+    - Linter
+    - Formating
+- Сборщик
+  - vite
+- TypeScript
+  - node
+  - deno
+  - rust version
+- JS esnext
+- CSS modules BEM
+  Linter
+
+Devops
+
+```
+Командная строка
+sh ash ksh bash zsh - ohmyzsh
+google/zx: A tool for writing better scripts
+du
+
+    cat bat
+    sed
+    awk
+    gawk
+    tr
+    grep
+    vi vim spf13
+    wget curl
+    grc
+    mc
+    zxc
+
+    /etc/hosts
+    /etc/passwd
+    /etc/groups
+    /etc/shells
+
+    /var/log/*.log
+    tail -f lofile
+    tail -n 100 -f lofile
+
+
+    git
+    git init
+    git add .
+    git commit -m "Comment"
+    git push
+
+    git remote add
+    git pull
+
+    npm init
+    npm i pack
+    npm i -D pack
+    npm i -g pack
+
+    composer init
+
+    docker
+        ctop
+        prometheus
+    Crypto
+        ssh-client
+        ssh-server
+        openssl
+            Let`s Encrypted
+
+    Servers
+        DNS
+        HTTP
+            HTTP 3
+                nginx + cdn patch
+                caddy
+            HTTP 2
+                nginx
+            HTTP 1
+                node
+                php
+        Mysql
+        MariaDB
+        Postgres
+        Mail
+            SMTP
+                Auth
+            POP
+            IMAP
+        Redis
+        Sokti
+        Minio S3
+        Gosftpd
+        php
+            - builtin
+            - swoole
+            - fpm
+            - roadrunner
+```
+
+Удобство
+
+- KeepassXC
+- KeepassXC Browser
+
+Maps
+
+- Drawio draw.io is free online diagram software for making flowcharts, process diagrams, org charts,
+- Mermaid | Diagramming and charting tool
+
+UI
+
+- Devexpress
+- MUI
+- TailWind
+- Bootstrap
+
+const text_format_list_raw = `- txt
+
+- md
+- mdx MarkDown + React
+- mmd Mermaid`
+
+```
+//export const text_format_list_array = text_format_list_raw.split("/n")
+```
+
+export const text_format_list_array = [1, 3, 5]
+export const ListCmp = ({ list }) => {
+  return (
+    <>
+      <ul>
+        {list.map((el) => (
+          <li>{el}</li>
+        ))}
+        <li>1</li>
+      </ul>
+    </>
+  )
+}
+
+{' '}
+
+<div style={{ padding: '1rem', backgroundColor: 'tomato' }}>
+  Try and change the background color to `tomato`.
+  {text_format_list_array}
+</div>
+<ListCmp list={text_format_list_array} />
